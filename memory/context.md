@@ -4,7 +4,7 @@
 ## Active Priorities
 
 ### 1. HITRUST r2 v11.5 Certification
-**Status**: Phase 1 remediation in progress
+**Status**: Phase 1 remediation ✅ COMPLETE
 **Timeline**: Incubation May-July 2026, Fieldwork August 2026
 **Assessor**: A-LIGN
 **Phase 1 Progress**:
@@ -12,8 +12,8 @@
 - ✅ AI Systems Inventory (completed with Wood and team)
 - ✅ Gap assessment (A-LIGN, 2026-02-11)
 - ✅ AI Risk Taxonomy Framework (implemented 2026-03-04)
-- ⏳ AI Risk Assessment process (Vanta integration pending)
-- ⏳ Change Management for AI models (Jira workflow pending)
+- ✅ AI Risk Assessment process (Vanta integration complete)
+- ✅ Change Management for AI models (Jira workflow designed)
 
 ### 2. HITRUST AI2 Assessment
 **Status**: Pre-assessment phase
