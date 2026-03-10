@@ -1,0 +1,13 @@
+{
+  "scan_timestamp": "2026-03-09T22:56:14Z",
+  "scan_type": "comprehensive",
+  "summary": {
+    "gcp_resources": 0
+0,
+    "github_repos": 0
+0,
+    "docker_containers":        0
+0
+  },
+  "report_location": "/Users/rsannicolas/Documents/GitHub/C3PO/workspace/discovery-results/discovery_report_20260309_155559.md"
+}

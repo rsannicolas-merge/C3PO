@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "HITRUST Phase 1 Policy Suite - Compliance Evidence",
+    "issuer": "MERGE Agency - Office of Information Security",
+    "date": "2026-02-24",
+    "scope": "HITRUST r2 v11.5 Phase 1 - Policy Documentation"
+  },
+  "controls": [
+    {
+      "id": "POL-0011",
+      "description": "AI Governance, Security & Acceptable Use Policy - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v2.0, 2026-02-21). HITRUST control mappings inline. 16 defined terms. Approved by leadership 2026-02-22. Pending Vanta upload.",
+      "framework": "HITRUST",
+      "controlId": "05.k"
+    },
+    {
+      "id": "POL-0011-NIST",
+      "description": "AI Governance Policy - NIST SA-3, RA-1, PL-1 coverage",
+      "status": "pass",
+      "evidence": "Policy addresses system development lifecycle for AI (SA-3), risk assessment policy (RA-1), and security planning policy (PL-1).",
+      "framework": "NIST-800-53",
+      "controlId": "SA-3"
+    },
+    {
+      "id": "POL-0012",
+      "description": "Secure SDLC Policy - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v1.0, 2026-02-23). MERGE 9-section format. HITRUST and NIST control mappings. AI-specific SDLC sections included for HITRUST AI2.",
+      "framework": "NIST-800-53",
+      "controlId": "SA-3"
+    },
+    {
+      "id": "POL-0012-HITRUST",
+      "description": "Secure SDLC Policy - HITRUST 09.aa Change Control coverage",
+      "status": "pass",
+      "evidence": "Policy establishes secure development lifecycle requirements including code review, testing gates, and change control procedures.",
+      "framework": "HITRUST",
+      "controlId": "09.aa"
+    },
+    {
+      "id": "STD-0001",
+      "description": "CI/CD Pipeline Security Standard - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v1.0, 2026-02-23). Covers pipeline hardening, secrets management, deployment gates, artifact integrity. NIST SA-15, CM-3 mapped.",
+      "framework": "NIST-800-53",
+      "controlId": "SA-15"
+    },
+    {
+      "id": "STD-0002",
+      "description": "Container Security Standard - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v1.0, 2026-02-23). Covers image scanning, runtime controls, base image currency, Dockerfile hardening. NIST CM-6, SI-7, SC-7, RA-5 mapped.",
+      "framework": "NIST-800-53",
+      "controlId": "CM-6"
+    },
+    {
+      "id": "STD-0003",
+      "description": "IaC Security Standard - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v1.0, 2026-02-23). Covers Terraform security baselines, GCP configuration hardening, drift detection. NIST CM-2, CM-6 mapped.",
+      "framework": "NIST-800-53",
+      "controlId": "CM-2"
+    },
+    {
+      "id": "PROC-0001",
+      "description": "Dependency Management Procedure - drafted, MERGE template, pending Legal approval",
+      "status": "pass",
+      "evidence": "Draft complete (v1.0, 2026-02-23). Covers CVE remediation SLAs, license compliance, SBOM generation, supply chain risk. NIST SI-2, SR-3 mapped.",
+      "framework": "NIST-800-53",
+      "controlId": "SI-2"
+    },
+    {
+      "id": "POL-0013",
+      "description": "Incident Response Policy - drafted, MERGE template, includes HITRUST AI2 Section 5.4 requirements",
+      "status": "pass",
+      "evidence": "Draft complete (v3.0, 2026-02-23). Modernized from MRG-023. 7 AI-specific incident types, Foresite MSSP integration, severity SLAs, MITRE ATLAS classification. NIST IR-1, IR-8 mapped.",
+      "framework": "NIST-800-53",
+      "controlId": "IR-1"
+    },
+    {
+      "id": "POL-0013-HITRUST",
+      "description": "Incident Response Policy - HITRUST AI2 Section 5.4 AI Incident Response coverage",
+      "status": "pass",
+      "evidence": "Policy includes AI model compromise, data poisoning, adversarial input, unauthorized deployment, AI data exfiltration, AI supply chain compromise incident types. AI evidence preservation and model isolation procedures defined.",
+      "framework": "HITRUST",
+      "controlId": "11.a"
+    },
+    {
+      "id": "POL-0013-MSSP",
+      "description": "Incident Response Policy - Foresite MSSP severity SLA integration",
+      "status": "pass",
+      "evidence": "Severity SLAs documented: Critical 15min, High 1hr, Medium 4hr, Low NBD. RACI matrix references Foresite 24/7 SOC.",
+      "framework": "HITRUST",
+      "controlId": "11.c"
+    },
+    {
+      "id": "GAP-AI-RISK",
+      "description": "AI Risk Assessment Procedure - MISSING, required for HITRUST Phase 1",
+      "status": "fail",
+      "evidence": "No AI Risk Assessment procedure exists. Required by HITRUST AI2. Must be set up in Vanta with 180-day cadence. Deadline: April 2026.",
+      "framework": "NIST-800-53",
+      "controlId": "RA-3"
+    },
+    {
+      "id": "GAP-IR-PLAN",
+      "description": "Incident Response Plan - MISSING, distinct from IR Policy",
+      "status": "fail",
+      "evidence": "Policy (POL-0013) exists but operational plan with contact trees, communication templates, and exercise schedule does not.",
+      "framework": "NIST-800-53",
+      "controlId": "IR-8"
+    },
+    {
+      "id": "GAP-IR-REPORTING",
+      "description": "Incident Reporting Procedure - MISSING",
+      "status": "fail",
+      "evidence": "No standalone incident reporting procedure. POL-0013 references 24-hour reporting requirement but detailed procedure with forms and escalation paths not drafted.",
+      "framework": "NIST-800-53",
+      "controlId": "IR-6"
+    },
+    {
+      "id": "GAP-AC-POLICY",
+      "description": "Access Control Policy - MISSING",
+      "status": "fail",
+      "evidence": "No access control policy drafted. Required for HITRUST and NIST AC-1.",
+      "framework": "NIST-800-53",
+      "controlId": "AC-1"
+    },
+    {
+      "id": "GAP-AU-POLICY",
+      "description": "Audit & Logging Policy - MISSING",
+      "status": "fail",
+      "evidence": "No audit logging policy drafted. Required for NIST AU-1.",
+      "framework": "NIST-800-53",
+      "controlId": "AU-1"
+    },
+    {
+      "id": "GAP-CM-POLICY",
+      "description": "Configuration Management Policy - MISSING",
+      "status": "fail",
+      "evidence": "No configuration management policy drafted. Required for NIST CM-1.",
+      "framework": "NIST-800-53",
+      "controlId": "CM-1"
+    },
+    {
+      "id": "GAP-CP-POLICY",
+      "description": "Contingency Plan - MISSING",
+      "status": "fail",
+      "evidence": "No contingency plan or disaster recovery procedure drafted. Required for NIST CP-1.",
+      "framework": "NIST-800-53",
+      "controlId": "CP-1"
+    },
+    {
+      "id": "VANTA-UPLOAD",
+      "description": "Approved AI Governance Policy not yet uploaded to Vanta",
+      "status": "fail",
+      "evidence": "POL-0011 approved by leadership 2026-02-22 but not yet uploaded to Vanta GRC platform for evidence collection. Gap remains open until upload complete.",
+      "framework": "HITRUST",
+      "controlId": "05.k"
+    }
+  ]
+}

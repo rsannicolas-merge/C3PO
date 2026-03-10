@@ -117,3 +117,59 @@
 - Set-and-forget controls without validation
 
 ---
+
+## [2026-03-09] GRC Engineering Principles
+
+**Pattern**: GRC Engineering vs GRC Scripting
+**Context**: Moving from point automation to systems engineering for enterprise GRC
+**Evidence**: GRC Engineer manifesto and Ayoub Fandi's framework incorporated into `memory/grc-engineering-principles.md`
+**Confidence**: 9/10
+
+**Key Insights**:
+- **Three Pillars**: Reality before compliance, Outcomes before tools, Process before automation
+- **Three Automation Types**: Deterministic (if/then), AI-augmented (hybrid), Autonomous (future)
+- **Shift Left**: Move GRC into design phase, not verification phase
+- **Treat GRC as Product**: Iterative improvement with telemetry and UX focus
+- **Practitioner-Led**: Solutions designed by those living the problems
+
+**Critical Differentiator**:
+- Scripting solves immediate problems (plumbing)
+- Engineering architects scalable solutions (infrastructure)
+- C3PO implements systems engineering, not isolated scripts
+
+**Enterprise Patterns**:
+- 90% of controls exist outside perfect API world
+- Heterogeneous environments need multiple integration methods
+- Process accumulation requires consolidation strategy
+- Coordination costs multiply with scale
+
+**Integration with Risk-Driven GRC**:
+- Threats → Engineered Controls → Automated Evidence → Measured Effectiveness
+- Compliance emerges from working controls, not manufactured for auditors
+
+---
+
+## [2026-03-09] Operational Excellence Session
+
+**Pattern**: Documentation as Direct Risk Mitigation
+**Context**: Critical systems without documentation equal unquantified risk exposure
+**Evidence**: Corsair CPOE transformed from unknown to understood in 1 hour via comprehensive documentation
+**Confidence**: 10/10
+
+**Pattern**: FTE Equivalence Framing for AI
+**Context**: Leadership understands FTE value better than AI capabilities
+**Evidence**: 5 FTE digital employee model resonates for resource allocation decisions
+**Confidence**: 10/10
+
+**Pattern**: Parallel Critical Task Execution
+**Context**: Multiple critical risks require simultaneous mitigation
+**Evidence**: TodoWrite enabled tracking and completion of 4 critical tasks in single session
+**Confidence**: 10/10
+
+**Key Insight**: The Graduation Moment
+- When controls work, compliance certificates appear naturally
+- HITRUST evidence generated as byproduct of operational improvements
+- Risk management as decision engine, not compliance theater
+**Confidence**: 10/10
+
+---

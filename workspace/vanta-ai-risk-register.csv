@@ -1,0 +1,106 @@
+Risk ID,Risk Title,Category,Subcategory,Description,Likelihood,Impact,Risk Score,Risk Owner,Control Requirements,Evidence Required,Review Frequency,HITRUST Mapping,Status
+AI-001,Vertex AI Model Hallucination,Model Risk,Accuracy,AI models generate factually incorrect or misleading outputs that could impact federal decision-making,Medium,Critical,High,Michael Wood,"- Implement confidence scoring thresholds
+- Human-in-the-loop validation for critical outputs
+- Regular accuracy benchmarking
+- Prompt engineering guidelines","- Model performance metrics
+- Accuracy test results
+- Incident reports
+- User feedback logs",180 days,"01.00a, 01.02a, 07.10b",Open
+AI-002,PII/PHI Data Exposure,Data Risk,Privacy,Sensitive personal or health information exposed through model training data or outputs,Low,Critical,High,Roze San Nicolas,"- Data classification and labeling
+- DLP policies for AI systems
+- Input/output filtering
+- Data minimization reviews","- Data inventory
+- DLP scan results
+- Privacy impact assessments
+- Training data audits",180 days,"13.j, 19.06a, 19.06c",Open
+AI-003,Prompt Injection Attack,Security Risk,Adversarial,Malicious prompts bypass security controls to extract sensitive data or manipulate outputs,Medium,High,High,Michael Wood,"- Input validation and sanitization
+- Rate limiting and anomaly detection
+- Prompt filtering rules
+- Security monitoring alerts","- Security incident logs
+- WAF/firewall logs
+- Penetration test results
+- Prompt audit trails",180 days,"07.06h, 11.01v, 12.09ab",Open
+AI-004,Model Performance Degradation,Model Risk,Drift,AI model accuracy decreases over time due to data drift or environmental changes,High,Medium,Medium,Michael Wood,"- Model monitoring dashboards
+- Automated drift detection
+- Retraining schedule (quarterly)
+- Performance baselines","- Model metrics trends
+- Drift detection reports
+- Retraining records
+- Performance benchmarks",180 days,"06.09b, 06.10h, 17.03b",Open
+AI-005,Vendor Service Disruption,Operational Risk,Availability,Google Vertex AI service outage impacts agency operations,Low,High,Medium,Roze San Nicolas,"- Multi-region deployment
+- Fallback procedures
+- SLA monitoring (99%+)
+- Incident response plan","- Uptime reports
+- SLA compliance metrics
+- Incident tickets
+- DR test results",180 days,"16.09l, 16.12b, 17.03c",Open
+AI-006,Regulatory Non-Compliance,Compliance Risk,Regulatory,Failure to meet HITRUST r2/AI2 or FedRAMP requirements for AI systems,Medium,Critical,High,Roze San Nicolas,"- Control implementation tracking
+- Regular compliance assessments
+- Policy enforcement
+- Audit preparation","- Control evidence packages
+- Assessment reports
+- Policy attestations
+- Audit findings",180 days,"01.03a, 17.00a, 19.06a",Open
+AI-007,Unauthorized Model Access,Security Risk,Access Control,Unauthorized users gain access to AI models or training data,Low,High,Medium,Michael Wood,"- IAM policies (least privilege)
+- MFA enforcement
+- Access reviews (quarterly)
+- Audit logging","- Access logs
+- IAM configuration
+- Access review reports
+- Authentication logs",180 days,"11.01c, 11.01q, 11.01v",Open
+AI-008,Training Data Bias,Model Risk,Fairness,AI models exhibit discriminatory bias affecting federal service delivery,Medium,High,High,Michael Wood,"- Bias testing protocols
+- Fairness metrics monitoring
+- Diverse training datasets
+- Regular bias audits","- Bias test results
+- Fairness metrics
+- Dataset composition
+- Demographic impact analysis",180 days,"17.03b, 19.13j, 14.05i",Open
+AI-009,Cost Overrun,Operational Risk,Financial,Uncontrolled AI usage leads to budget overruns,Medium,Medium,Medium,Roze San Nicolas,"- Usage quotas and alerts
+- Cost monitoring dashboards
+- Budget forecasting
+- Usage optimization reviews","- Cost reports
+- Usage analytics
+- Budget variance reports
+- Optimization recommendations",180 days,17.03a,Open
+AI-010,Model IP/Copyright Violation,Compliance Risk,Legal,AI outputs violate intellectual property or copyright laws,Low,High,Medium,Roze San Nicolas,"- Content filtering policies
+- Copyright screening tools
+- Legal review process
+- Usage policies","- Legal reviews
+- Content scan results
+- Policy acknowledgments
+- Incident reports",180 days,"19.06b, 19.09z",Open
+AI-011,Supply Chain Compromise,Security Risk,Third-Party,Google Vertex/Gemini updates introduce vulnerabilities or backdoors,Low,Critical,High,Michael Wood,"- Vendor security assessments
+- Change notification monitoring
+- Security bulletin tracking
+- Patch management","- Vendor assessments
+- Security bulletins
+- Change logs
+- Patch records",180 days,"14.05k, 14.09f, 17.03a",Open
+AI-012,Inadequate Incident Response,Operational Risk,Incident Mgmt,AI-specific security incidents not properly detected or responded to,Medium,High,High,Roze San Nicolas,"- AI incident response procedures
+- Detection rules for AI threats
+- Tabletop exercises (annual)
+- Alert correlation","- IR procedures
+- Incident logs
+- Exercise reports
+- Alert configurations",180 days,"15.11c, 11.11c, 15.11e",Open
+AI-013,Model Documentation Gap,Compliance Risk,Documentation,Missing or incomplete AI model cards and documentation,High,Medium,Medium,Michael Wood,"- Model card templates
+- Documentation standards
+- Review checklists
+- Version control","- Model cards
+- Technical documentation
+- Review records
+- Approval workflows",180 days,"06.10h, 14.05i, 07.07a",Open
+AI-014,Data Retention Violation,Data Risk,Governance,AI training data retained beyond policy limits or regulatory requirements,Medium,Medium,Medium,Roze San Nicolas,"- Retention policies
+- Automated data deletion
+- Retention monitoring
+- Compliance tracking","- Retention schedules
+- Deletion logs
+- Compliance reports
+- Data inventory",180 days,"19.06c, 19.13j",Open
+AI-015,API Exposure,Security Risk,Integration,AI API endpoints exposed without proper authentication or rate limiting,Low,High,Medium,Michael Wood,"- API gateway controls
+- Authentication requirements
+- Rate limiting policies
+- API inventory","- API configurations
+- Authentication logs
+- Rate limit metrics
+- Security scans",180 days,"09.09s, 11.01c, 08.09m",Open

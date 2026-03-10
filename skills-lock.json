@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "corsair": {
+      "source": "grcorsair/corsair",
+      "sourceType": "github",
+      "computedHash": "0503b7453034d70abcfab3969b7812ac03cfda05e85d3a5339abfaea1c2e2c6f"
+    }
+  }
+}

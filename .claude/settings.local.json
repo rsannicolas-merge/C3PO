@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/rsannicolas/Documents/GitHub/C3PO/init.sh)",
+      "Read(//Users/rsannicolas/Downloads/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
