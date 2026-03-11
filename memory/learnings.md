@@ -273,3 +273,19 @@
 - Color system: Primary (3), Secondary (4), Tertiary (5) with specific use cases
 
 ---
+
+## [2026-03-11] GitHub Repository Setup
+
+**Pattern**: Authentication Context Awareness for Repository Operations
+**Context**: When creating or managing GitHub repositories via CLI
+**Evidence**: Repository creation failed for rsannicolas, succeeded with rsannicolas-merge authenticated account
+**Confidence**: 10/10
+
+**Key Insights**:
+- GitHub operations use authenticated user context exclusively
+- `gh auth status` essential for verifying active account before operations
+- Repository ownership determined by authenticated account, not target username
+- gh CLI streamlines repository creation without browser interaction
+- Public repositories enable immediate collaboration and transparency
+
+---
