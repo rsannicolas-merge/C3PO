@@ -1,5 +1,5 @@
 # Security Asset Registry
-*Last Updated: 2026-03-09*
+*Last Updated: 2026-03-10*
 *Registry Owner: CISO*
 
 ## Overview
@@ -35,6 +35,7 @@ This registry catalogs all IT systems, security tools, vendors, and SLA contract
 | Claude Enterprise | AI assistant platform | IT | Anthropic SaaS | HITRUST AI2 | ✅ Complete | 99.9% |
 | Jira | Ticketing & change mgmt | IT | Atlassian Cloud | SOC2 | ✅ Complete | 99.95% |
 | C3PO Platform | Security ops command center | CISO | Multi-tool | Internal | ✅ Complete | Internal |
+| SecOps Command Center | AI agent orchestration demo | CISO | React/Vite/GCP | HITRUST evidence | ✅ Complete | Demo only |
 
 ### Low-Risk Systems (Tier 4)
 *Non-sensitive, non-critical systems*
