@@ -235,3 +235,41 @@
 - Git-based knowledge management with structured reflection loops for institutional learning
 
 ---
+
+## [2026-03-11] Snyk MCP Integration
+
+**Pattern**: MCP Tool Server Testing Without Resource Exposure
+**Context**: When MCP servers operate through tool functions rather than resource protocols
+**Evidence**: Snyk MCP v1.1303.1 returns empty resource list but fully operational through mcp__Snyk__ tool functions
+**Confidence**: 10/10
+
+**Key Insights**:
+
+- MCP servers may expose tools without resources - test with direct function calls
+- Security scanning requires appropriate file context (SCA needs deps, IaC needs .tf/.yaml)
+- Authentication and trust requirements persist across sessions (Snyk global auth)
+- Documentation repositories produce clean security scans by design (no deps, no code)
+
+---
+
+## [2026-03-11] Brand Guidelines Implementation
+
+**Pattern**: Dual Implementation for Organizational Standards
+**Context**: When establishing organizational standards that need consistent enforcement
+**Evidence**: Brand guidelines successfully implemented through memory documentation AND global CLAUDE.md enforcement
+**Confidence**: 9/10
+
+**Key Insights**:
+- Standards require both human-readable documentation AND machine-enforceable rules
+- Global configuration (CLAUDE.md) prevents drift without manual intervention
+- Technical specifications (tracking, kerning, color values) enable immediate implementation
+- WCAG accessibility compliance must be built into design system foundations
+- Platform-specific variations (Figma "Forced small caps") require explicit documentation
+
+**Technical Patterns**:
+- Fraunces: -0.02em letter-spacing, optical kerning, size/weight inverse relationship
+- Epilogue: font-variant: small-caps for capitalization (never ALL CAPS)
+- Electrolight Green (#1ED75F): Restricted to dark backgrounds for WCAG compliance
+- Color system: Primary (3), Secondary (4), Tertiary (5) with specific use cases
+
+---
