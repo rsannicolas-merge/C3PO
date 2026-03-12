@@ -244,7 +244,7 @@ Roze serves as Chief of Information Security for a federal agency, responsible f
 
 - **Infrastructure**: GCP (Google Cloud Platform), Terraform
 - **AI Infrastructure**: Google Vertex AI / Gemini (primary AI platform; in scope for HITRUST r2 and AI2)
-- **GRC Platform**: Vanta (primary evidence collection and compliance automation platform)
+- **GRC Platform**: Vanta (primary evidence collection and compliance automation platform, accessed natively via the **Vanta MCP Server**)
 - **Ticketing / Change Management**: Jira (change control workflows for AI model updates)
 - **Source Control**: GitHub
 - **Security Framework**: Roze's security documentation templates
@@ -290,7 +290,7 @@ Roze serves as Chief of Information Security for a federal agency, responsible f
 - **HITRUST CSF v11.5**: The specific version of the CSF Roze's agency is certifying against
 - **AI2 Assessment**: HITRUST's AI-specific security assurance certification -- covers AI system governance, data integrity, model security, and AI lifecycle risk management
 - **myCSF**: HITRUST's online portal for managing assessments, submitting evidence packages, and tracking certification status
-- **Vanta**: GRC automation platform used for HITRUST evidence collection, control tracking, and continuous compliance monitoring
+- **Vanta**: GRC automation platform used for HITRUST evidence collection, control tracking, and continuous compliance monitoring. The C3PO agent can directly query Vanta controls, tests, and evidence using its built-in MCP tools (e.g., `tests`, `controls`, `documents`, `frameworks`).
 - **Vertex AI / Gemini**: Google's AI platform -- primary AI infrastructure in scope for HITRUST r2 and AI2 assessments
 - **AI Model Card**: A structured document describing an AI model's purpose, training data, risk level, and owner -- required for HITRUST AI2 evidence
 - **AI Governance Policy**: Master policy governing AI security, SDLC, and acceptable use -- top Phase 1 gap to close
@@ -399,7 +399,7 @@ Roze serves as Chief of Information Security for a federal agency, responsible f
 | Certification Need | Kit Capability |
 | ------------------ | -------------- |
 | Evidence documentation | FTE 1 (Security Documentation Agent) generates policies, procedures, runbooks |
-| Control gap analysis | FTE 2 (GRC Agent) maps current posture to HITRUST control specs |
+| Control gap analysis | FTE 2 (GRC Agent) uses Vanta MCP tools to map current posture to HITRUST control specs instantly without manual shell scripts |
 | Risk register for assessor | FTE 3 (Risk Intelligence Agent) maintains and formats risk register |
 | System inventory for scope | FTE 4 (Asset Registry Agent) catalogs systems and services |
 | Audit prep checklists | `/audit-prep compliance hitrust-r2` generates control-by-control checklist |

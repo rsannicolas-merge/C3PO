@@ -152,6 +152,12 @@ Alert Triggers:
 3. **GitHub Changes**: Commit hooks
 4. **Monitoring Alerts**: CloudWatch/Stackdriver
 
+### MCP Integration (C3PO AI Agent)
+The C3PO AI Agent can automatically orchestrate evidence collection and risk mapping using the Vanta MCP. Direct the agent to use the following tools:
+- `list_framework_controls`: To retrieve controls mapped to HITRUST and automatically populate this assessment template.
+- `list_risk_scenarios`: To fetch current scoring and treatment plans for existing AI risks.
+- `documents`: To retrieve or upload supporting evidence.
+
 ---
 
 ## Reporting Templates
