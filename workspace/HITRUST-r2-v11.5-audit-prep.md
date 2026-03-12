@@ -65,7 +65,7 @@ Gap assessment completed by A-LIGN on 2026-02-11. Four high-priority gap areas i
 | Gap | Area | Severity | Current State | Remediation | Owner | Phase | Status |
 | --- | ---- | -------- | ------------- | ----------- | ----- | ----- | ------ |
 | No AI Governance Policy | AI Governance | High | Ad-hoc; no approved policy | Draft and approve master "AI Governance Policy" covering security, SDLC, acceptable use | Roze | 1 | Open |
-| No AI Risk Assessment process | AI Risk Management | High | No structured process; AI-specific threats (e.g., prompt injection) unaddressed | Integrate recurring AI Risk Assessment (every 180 days) into Vanta GRC | Roze | 1 | Open |
+| No AI Risk Assessment process | AI Risk Management | High | No structured process; AI-specific threats (e.g., prompt injection) unaddressed | Integrate recurring AI Risk Assessment (every 180 days) into Vanta GRC | Roze | 1 | DRAFT -- Pending Approval |
 | Incomplete AI asset inventory | Asset Visibility | High | AI models and datasets not fully cataloged | Implement centralized AI Asset Inventory + "AI Model Cards" for all internal models | Roze | 2 | Open |
 | No change control for AI models | Change Management | High | AI model updates deployed without formal review | Integrate AI dev into Jira change workflows -- testing and approval required before deployment | Roze / Engineering | 2 | Open |
 
@@ -83,8 +83,9 @@ Gap assessment completed by A-LIGN on 2026-02-11. Four high-priority gap areas i
 
 - [ ] Draft "AI Governance Policy" -- security, SDLC, acceptable use across the organization
 - [ ] Get AI Governance Policy reviewed by Legal and approved by leadership
-- [ ] Set up AI Risk Assessment process in Vanta GRC (recurring, every 180 days)
-- [ ] Run first AI Risk Assessment -- document AI-specific threats for Vertex/Gemini
+- [x] Draft AI Risk Assessment Procedure (PROC-0002) -- COMPLETE 2026-03-11; route to Legal for approval
+- [ ] Set up AI Risk Assessment 180-day cadence in Vanta after procedure is approved
+- [ ] Run first AI Risk Assessment -- document AI-specific threats for Vertex/Gemini (April 2026)
 - [ ] Get executive sign-off on governance policies (per Executive Ask #3 -- expedited approvals)
 - [ ] Engage Engineering and Legal as SMEs (per Executive Ask #1 -- resource allocation)
 
@@ -146,7 +147,7 @@ These require leadership action -- track until resolved.
 ### High-Priority (tied to identified gaps)
 
 - [ ] **AI Governance Policy** -- approved and distributed
-- [ ] **AI Risk Assessment** -- process established, first run documented
+- [x] **AI Risk Assessment Procedure (PROC-0002)** -- DRAFTED 2026-03-11; pending Legal review and leadership approval; configure 180-day cadence in Vanta after approval
 - [ ] **AI Asset Inventory** -- complete, current
 - [ ] **AI Model Cards** -- created for all internal models
 - [ ] **Change Management** -- AI model changes in Jira workflow

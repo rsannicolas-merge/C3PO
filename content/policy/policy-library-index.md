@@ -93,7 +93,7 @@
 | Policy / Procedure | Status | Last Review | NIST Control | Location |
 | ------------------ | ------ | ----------- | ------------ | -------- |
 | Risk Assessment Policy | 🔴 MISSING | | RA-1 | |
-| Risk Assessment Procedure | 🔴 MISSING | | RA-3 | |
+| AI Risk Assessment Procedure (PROC-0002) | 🚧 DRAFT | 2026-03-11 | RA-3, PM-9 | content/policy/drafts/DRAFT_ai-risk-assessment-procedure.md |
 | Vulnerability Scanning Procedure | 🔴 MISSING | | RA-5 | |
 
 ---
@@ -164,16 +164,16 @@ Run `/audit-prep policy` to get a current gap count and prioritized remediation 
 
 **Quick count**:
 
-- Total documents tracked: 30
+- Total documents tracked: 31
 - Current (✅): 0
 - Needs review (🟡): 1
-- Missing (🔴): 21
-- Draft (🚧): 8 (7 policies/standards/procedures + 1 playbook)
+- Missing (🔴): 20
+- Draft (🚧): 9 (8 policies/standards/procedures + 1 playbook)
 
 **Highest priority gaps** (HITRUST Phase 1 -- due before April 30, 2026):
 
 1. AI Governance Policy (POL-0011) -- 🚧 DRAFT, route to Legal and leadership for approval
-2. AI Risk Assessment Procedure -- 🔴 MISSING, set up in Vanta with 180-day cadence
+2. AI Risk Assessment Procedure (PROC-0002) -- 🚧 DRAFT ✅ CLOSED, route to Legal and leadership for approval; configure 180-day cadence in Vanta
 3. Incident Response Policy (POL-0013) -- 🚧 DRAFT, route to Legal with DevSecOps batch; closes HITRUST AI2 Section 5.4 gap
 4. DevSecOps procedures -- 🚧 ALL 5 DRAFTED (POL-0012, STD-0001, PROC-0001, STD-0002, STD-0003), route to Legal and leadership for approval alongside POL-0011
 
